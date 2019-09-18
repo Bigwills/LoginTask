@@ -1,0 +1,131 @@
+<!doctype html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<meta name="description" content="loginpage">
+			<meta name="keywords" content="html, css, script, login">
+			<meta name="author" content="Wofai WIllie Ikpi">
+			<meta name="viewpoint" content="width=device=width, initial-scale=1.0">
+			<title>loginpage</title>
+            <style>
+                body {
+                font-family: verdana;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 100%;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url(https://res.cloudinary.com/bigwills/image/upload/v1568751179/StartDotNG/nightscape_ayqb76.jpg);
+                position: fixed;
+                overflow: hidden;
+                justify-content: center;
+                        
+                    
+                }
+                       
+                              
+                .container {
+                    
+                    display: grid;
+                    width: 380px;
+                    height: 450px;
+                    background-color:white;
+                    border-radius: 10px;
+                    justify-self: center;
+                    align-self: center;
+                    text-align: center;
+                    color: darkblue;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 5em;
+                    
+                    
+                
+                }
+                                                    
+                .avatar {
+                    width: 60px;
+                    height: 60px;
+                    padding: 15px;
+                    justify-self: center;
+                    margin-top: 20px;
+                    
+                                                
+                }
+                
+                .signIN {
+                    padding: 5px;
+                    margin-top: -40px;
+                }
+                
+                form {
+                    align-self:center;
+                    margin-top: 30px;
+                    
+                    
+                    
+                }
+                input[type=text],  input[type=password] {
+                    padding: 10px;
+                    border: none;
+                    margin-bottom: 15px;
+                    border-bottom: 2px solid grey;
+                    width: 70%;
+                }
+                
+                input[type=submit] {
+                    background-color: midnightblue;
+                    color: white;
+                    width: 70%;
+                    padding:12px 20px;
+                    border: none;
+                    margin-bottom: 
+                }
+                 input[type=button] {
+                    background-color: white;
+                    color: darkblue;
+                    width: 30%;
+                    border: solid 2px darkblue;
+                    padding:12px 20px;
+                    border-radius: 10px;
+                    margin-top: 30px;
+                     
+                }
+                
+                input[type=button]:hover {
+                    border: solid 2px darkred;
+                    color: darkred;
+                }
+                input[type=submit]:hover {
+                    background-color: darkblue;
+                }
+                
+                p   {
+                    font-size: 11px;
+                    padding-left: 10px;
+                    
+                }
+            </style>
+        </head>
+    <body>
+    <div class="container">
+       <div class="image"> <img src="https://res.cloudinary.com/bigwills/image/upload/v1568747568/StartDotNG/become-customer-icon-blue_qjcggb.png" class="avatar">
+        </div>
+        <div class="signIN"><strong>SIGN IN</strong><br>
+        <form>
+            <input type="text" name="userName" placeholder="UserName"><br>
+            <input type="password" name="password" placeholder="Password" required><br>
+            <input type="submit" value="LOGIN"><br>
+        </form>
+            <p><input type="checkbox" name="rememberMe">Remember Me &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="forgottenPassword.html" style="text-align: left">Forgotten Password?</a><br>
+            <input type="button" value="SIGN UP">
+            </p>
+        </div>
+    </div>
+        
+    
+    </body>
+</html>
