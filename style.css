@@ -80,6 +80,10 @@ input[type=submit]:hover {
     cursor:pointer;
 }
 
+input[type=submit]:active {
+    background-color: midnightblue;
+    opacity: 0.5;
+}
 p   {
     font-size: 11px;
     padding-left: 10px;
